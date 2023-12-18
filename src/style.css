@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#topmenu{
+    height: 100px;
+   border: 2px solid black;
+   background-color: aqua;
+}
+#topmenu ul {
+     display: flex;
+     justify-content: space-evenly;
+}
+#topmenu ul li{
+     font-size: 30px;
+     margin-top: 33px;
+     font-family: Verdana;
+     list-style: none;
+
+}
+#topmenu ul li a{
+    text-decoration: none;
+    color: blue;
+}
+#input{
+    width: 600px;
+    height: 450px;
+    border: 5px solid red;
+    background-color: rgb(244, 236, 5);
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-top: 30px;
+    box-shadow: 4px 8px 8px red;
+}
+#input1{
+    width: 410px;
+    height: 300 px;
+    background-color: #a05f99;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 80px;
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(5, 5, 95);
+    box-shadow: 4px 5px 5px black;
+}
+#input h1{
+    color: rgb(14, 5, 148);
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#input1 input{
+    font-size: 25px;
+    width: 250px;
+    padding: 2px;
+    margin-top: 10px;
+}
+#btn{
+    font-size: 25px;
+    color: rgb(10, 7, 114);
+    background-color: burlywood;
+    border: 2px solid black;
+    border-radius: 75px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+#btn:hover{
+    color: rgb(209, 209, 215);
+    background-color: rgb(40, 4, 147);
+}
+#footer{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(3, 3, 103);
+}
+#display{
+    margin: auto;
+}
+#display tr{
+    color: blue;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 25px;
+}
+#display table tr td{
+    border: 1px solid rgb(7, 7, 7);
+    padding: 10px;
+}
+#display h1{
+    margin-left: 420px;
+    margin-top: 40px;
+    color: brown;
+    font-size: 40px;
+}
